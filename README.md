@@ -6,4 +6,6 @@ There are two files in this repository; dataset-parser.py utilises the functions
 
 We're currently sitting at a false positive generation rate of about 6%. A good bit of this can be addressed by tuning the constants in analysis-functions.py but thought should also go into improving analysis logic - which was hastily constructed. We should replace it over time.
 
-In order to run this code you'll need to clone the repo, create a virutal enviroment in the repo root, activate it in a terminal instance, install the required packages into it by backing back out to the root and using `python -m pip -r requirements.txt`. When you want to run the program, you will need to do so inside a terminal instance with the venv activated or from inside an IDE (like Visual Studio Code) with the appropriate extensions to identify your venv and enter it for you. 
+In order to run this code you'll need to clone the repo, create a virutal enviroment in the repo root, activate it in a terminal instance, install the required packages into it by backing back out to the root and using `python -m pip -r requirements.txt`. 
+
+When you want to run the program, you will need to do so inside a terminal instance with the venv activated or from inside an IDE (like Visual Studio Code) with the appropriate extensions to identify your venv and enter it for you. 
